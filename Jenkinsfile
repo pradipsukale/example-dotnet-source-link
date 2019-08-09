@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'vs2019'
+        label 'docker'
     }
     stages {
         stage('Build') {
